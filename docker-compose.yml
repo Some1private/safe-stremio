@@ -1,12 +1,10 @@
-version: "3.8"
-
 services:
   safe-stremio:
     image: psyb0t/safe-stremio:latest
     cap_add:
       - NET_ADMIN
     environment:
-      - WITH_OPENVPN=true
+      - WITH_OPENVPN=false
       - USERNAME=user
       - PASSWORD=pass
     ports:
