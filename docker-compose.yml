@@ -5,8 +5,6 @@ services:
       - NET_ADMIN
     environment:
       - WITH_OPENVPN=false
-      - USERNAME=user
-      - PASSWORD=pass
     ports:
       - "8080:80"
     volumes:
